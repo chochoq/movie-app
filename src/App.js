@@ -10,7 +10,7 @@ class App extends React.Component {
       <div>
         <h1>movie app</h1>
         <div>{this.state.count}</div>
-        <button>add</button>
+        <button onClick={this.state.count +1}>add</button>
         <button>minus</button>
       </div>
     )
