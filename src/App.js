@@ -2,16 +2,21 @@ import React from 'react';
 
 class App extends React.Component {
   state = {
-    count: 0,
+    is_loading: true,
+    movies: [],
   };
 
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ is_loading: false });
+    }, 6000);
+  }
+
   render() {
+    const { is_loading } = this.state;
     return (
       <div>
-        <h1>movie app</h1>
-        <div>{this.state.count}</div>
-        <button onClick={this.state.count +1}>add</button>
-        <button>minus</button>
+        {is_loading ? 'loading...': 'ready!'}
       </div>
     )
   }
