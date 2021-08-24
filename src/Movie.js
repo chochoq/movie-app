@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from "prop-types";
-import './App.css';
+import './Movie.css';
 
 function Movie({id, title,year,summary,poster, genres}) {
     return (
@@ -9,11 +9,11 @@ function Movie({id, title,year,summary,poster, genres}) {
             <div className="movie_data">
                 <h3 className="movie_title">{title}</h3>
                 <h5 className="movie_year">{year}</h5>
-                <ul className="genres">
+                <p className="movie_genres">
                     {genres.map((genre, idx) => (
-                        <li className="movie_genres" key={idx}>{genre}</li>
-                ))}</ul>
-                <h5 className="movie_summary">{summary}</h5>
+                        <li className="genres_genres" key={idx}>{genre}</li>
+                ))}</p>
+                <h5 className="movie_summary">{summary.slice(0, 140)}...</h5>
             </div>
         </div>
     )
