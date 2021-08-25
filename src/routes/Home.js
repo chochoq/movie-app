@@ -5,14 +5,14 @@ import './Home.css';
 
 
 class Home extends React.Component {
-    state = {
-    is_loading: true,
-    movies: [],
-    };
+  state = {
+  is_loading: true,
+  movies: [],
+  };
 
-    getMovies = async () => {
-    const {data:{data:{movies}}} = await axios.get('https://yts.mx/api/v2/list_movies.json?sort_by=rating');
-    this.setState({ movies:movies, is_loading:false });
+  getMovies = async () => {
+  const {data:{data:{movies}}} = await axios.get('https://yts.mx/api/v2/list_movies.json?sort_by=rating');
+  this.setState({ movies:movies, is_loading:false });
   };
 
   componentDidMount() {

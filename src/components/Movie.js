@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import './Movie.css';
 
 function Movie({ id, title, year, summary, poster, genres }) {
-    
     return (
         <div className="movie">
             <Link
