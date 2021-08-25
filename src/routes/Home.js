@@ -6,7 +6,7 @@ import './Home.css';
 
 class Home extends React.Component {
     state = {
-    is_loading: false,
+    is_loading: true,
     movies: [],
     };
 
@@ -25,7 +25,7 @@ class Home extends React.Component {
       <section className="container">
         {is_loading ?(
           <div className="loader">
-            <span className="loader_text">Loading...</span>
+            <h1 className="loader_text">Loading...</h1>
           </div>
         ) : (
             <div className="movies">
