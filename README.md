@@ -2,11 +2,11 @@
 
 기술스택: React, axios, gh-pages, react-router-dom
 
-생성일: 2021년 8월 26일 오전 2:24
 
 # 링크
 
 [Movie List web](https://chochoq.github.io/movie-app/#/)
+
 [Notion page](https://persistent-fruit-85b.notion.site/React-movie-list-3c9a929c319b42b588104d32629664e5)
 
 # 깃허브
