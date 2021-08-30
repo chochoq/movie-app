@@ -7,6 +7,7 @@
 # 링크
 
 [Movie List web](https://chochoq.github.io/movie-app/#/)
+[Notion page](https://persistent-fruit-85b.notion.site/React-movie-list-3c9a929c319b42b588104d32629664e5)
 
 # 깃허브
 
