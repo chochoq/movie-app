@@ -109,7 +109,7 @@
 
         `title`속성은 이미지위에 마우스를 대면 alt 속성값이 보여진다. title 속성은 거의 모든 브라우저에서 잘 보여진다.
 
-        ![스크린샷 2021-08-26 오전 3.07.21.png]((React)%20movie%20list%2032ddbd6a9b1d449cb41fdc6b535f4f82/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-08-26_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_3.07.21.png)
+        ![스크린샷 2021-08-26 오전 3.07.21.png](https://persistent-fruit-85b.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fea6d668b-bcff-4a86-bee5-ee3df0b7660c%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-08-26_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_3.07.21.png?table=block&id=ca4a9376-d2c2-4181-9545-63713f5a076f&spaceId=a07b9679-e55c-4b34-ad51-a4e7fac6c83a&width=1310&userId=&cache=v2)
 
         title 속성은 절대 alt 속성을 대체할 수 없으니 주의한다.
 
